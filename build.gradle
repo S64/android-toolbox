@@ -29,7 +29,7 @@ buildscript {
 }
 
 allprojects {
-    group = 'jp.s64.android.toolbox'
+    group = 'com.github.S64.android-toolbox'
     version = rootProject.ext.versions.versionName
     repositories {
         google()
