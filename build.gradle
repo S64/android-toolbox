@@ -30,7 +30,7 @@ buildscript {
 
 allprojects {
     apply plugin: 'digital.wup.android-maven-publish'
-    group = 'com.github.S64.android-toolbox'
+    group = 'jp.s64.android.toolbox'
     version = rootProject.ext.versions.versionName
     repositories {
         google()

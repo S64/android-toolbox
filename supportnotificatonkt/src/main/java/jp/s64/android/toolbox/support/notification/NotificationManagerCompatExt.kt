@@ -1,4 +1,4 @@
-package com.github.s64.android.toolbox.support.notification
+package jp.s64.android.toolbox.support.notification
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
