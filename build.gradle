@@ -29,6 +29,7 @@ buildscript {
 }
 
 allprojects {
+    apply plugin: 'digital.wup.android-maven-publish'
     group = 'com.github.S64.android-toolbox'
     version = rootProject.ext.versions.versionName
     repositories {
@@ -36,6 +37,13 @@ allprojects {
         jcenter()
         maven { url 'https://jitpack.io' }
         mavenLocal()
+    }
+    publishing {
+        repositories {
+            maven {
+                url = "${projectDir}/andorid-toolbox_gh-pages/m2"
+            }
+        }
     }
 }
 
