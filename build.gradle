@@ -41,7 +41,7 @@ allprojects {
     publishing {
         repositories {
             maven {
-                url = "${projectDir}/andorid-toolbox_gh-pages/m2"
+                url = "${rootProject.projectDir}/andorid-toolbox_gh-pages/m2"
             }
         }
     }
