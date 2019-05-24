@@ -23,7 +23,6 @@ android {
 }
 
 dependencies {
-    api "${group}:supportnotification:${versions.versionName}"
 }
 
 publishing {
