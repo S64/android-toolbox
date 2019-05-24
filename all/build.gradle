@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+apply plugin: 'digital.wup.android-maven-publish'
 
 android {
     compileSdkVersion versions.compileSdk
@@ -24,4 +24,12 @@ android {
 
 dependencies {
     api "${group}:supportnotification:${versions.versionName}"
+}
+
+publishing {
+    publications {
+        mavenAar(MavenPublication) {
+            from components.android
+        }
+    }
 }
