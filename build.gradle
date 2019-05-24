@@ -35,7 +35,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven { url 'https://s64.github.io/android-toolbox/m2' }
         mavenLocal()
     }
     publishing {
