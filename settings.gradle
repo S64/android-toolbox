@@ -1,1 +1,1 @@
-include ':supportnotificatonkt', ':all'
+include ':supportnotificatonkt', ':all', ':resultkt'
