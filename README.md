@@ -15,7 +15,7 @@ repositories {
 ```groovy
 dependencies {
     ...
-    implementation 'jp.s64.android.toolbox:supportnotificatonkt:0.0.2'
+    implementation 'jp.s64.android.toolbox:supportnotificatonkt:1.3.0'
     ...
 }
 ```
