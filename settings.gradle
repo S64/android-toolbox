@@ -1,1 +1,1 @@
-include ':supportnotificatonkt', ':all', ':resultkt'
+include ':supportnotificatonkt', ':all', ':resultkt', ':rxjavainteropktx'
