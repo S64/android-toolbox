@@ -10,6 +10,6 @@ fun <T> Observable1<T>.toV2(): Observable2<T> {
     return RxJavaInterop.toV2Observable(this)
 }
 
-fun <T> Disposable.toV1(): Subscription1 {
+fun Disposable.toV1(): Subscription1 {
     return RxJavaInterop.toV1Subscription(this)
 }
